@@ -20,7 +20,9 @@ A user message containing:
   `status` (`"changed"`, `"added"`, or `"removed"`), and depending on
   status:
   - `"changed"`: `changes` — a list of `{ field, from, to }`, where
-    `field` is one of `regular_price`, `sale_price`, `has_credit`.
+    `field` is one of `regular_price`, `sale_price`, `has_credit`; plus
+    `regular_price` (number) — the product's current regular price,
+    always present regardless of which fields changed.
   - `"added"`: `price` (number) — the price the product currently has.
   - `"removed"`: `price` (number) — the price the product had before it
     was removed.
@@ -54,9 +56,9 @@ exactly:
   новая цена `{to}` `{currency}`. This matters regardless of the size of
   the discount.
 - `sale_price` went from a number to `null`: акция/скидка
-  **закончилась**, цена вернулась к обычной (упомяни цену из `price` /
-  соответствующего `regular_price`, если он у тебя есть в контексте, или
-  просто скажи, что акция закончилась).
+  **закончилась**, цена вернулась к обычной — `{regular_price}`
+  `{currency}` (берётся из поля `regular_price` записи, а не из
+  `changes`).
 - `sale_price` changed between two numbers: цена по акции изменилась с
   `{from}` до `{to}` `{currency}`.
 - `has_credit` became `true`: появилась рассрочка/оплата частями.
