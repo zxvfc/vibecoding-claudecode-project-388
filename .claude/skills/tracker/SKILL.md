@@ -38,6 +38,9 @@ description: Обходит зашитый в скилл список отсле
 | `asus-dual-rtx5060-8gb-oc` | ASUS Dual GeForce RTX 5060 8GB GDDR7 OC Edition | `https://www.jib.co.th/web/product/readProduct/76790/51/VGA--การ์ดแสดงผล--ASUS-DUAL-GEFORCE-RTX-5060-8GB-GDDR7-OC-EDITION` |
 | `xbox-wireless-controller-doom-dark-ages` | Microsoft Xbox Wireless Controller — DOOM: The Dark Ages | `https://www.jib.co.th/web/product/readProduct/76835/2856/WIRELESS-CONTROLLER--คอนโทรลเลอร์ไร้สาย--MICROSOFT-XBOX-WIRELESS---DOOM-THE-DARK-AGE--MCS-EP2-14851-` |
 | `logitech-g923-trueforce-racing-wheel` | Logitech G G923 TRUEFORCE Racing Wheel (PS/PC) | `https://www.jib.co.th/web/product/readProduct/56363/2903/RACING-WHEEL-CONTROLLER--คอนโทรลเลอร์พวงมาลัย--LOGITECH-G-G923-TRUEFORCE-RACING-WHEEL--PS-PC-` |
+| `amd-ryzen-5-9600` | AMD Ryzen 5 9600 (6C/12T, 3.8-5.2GHz, AM5) | `https://www.jib.co.th/web/product/readProduct/76890/43/CPU--ซีพียู--AMD-RYZEN-5-9600---6C-12T-3-8-5-2GHz-AMD-SOCKET-AM5` |
+| `intel-core-ultra-5-245kf` | Intel Core Ultra 5 245KF (14C/14T, 3.6-5.2GHz, LGA1851, без кулера) | `https://www.jib.co.th/web/product/readProduct/71186/43/CPU--ซีพียู--INTEL-CORE-ULTRA-5-245KF---14C-14T-3-6-5-2GHz--INTEL-SOCKET-1851---CPU-COOLER-NOT-INCLUDED-` |
+| `gigabyte-b860i-aorus-pro-ice` | Gigabyte B860I Aorus Pro Ice (Rev. 1.0, LGA1851, DDR5, Mini-ITX) | `https://www.jib.co.th/web/product/readProduct/78221/46/MAINBOARD--เมนบอร์ด--GIGABYTE-B860I-AORUS-PRO-ICE--REV--1-0----INTEL-SOCKET-1851-DDR5-MINI-ITX` |
 
 Чтобы добавить или убрать товар из отслеживания, отредактируй только эту
 таблицу — остальная часть скилла не меняется.
