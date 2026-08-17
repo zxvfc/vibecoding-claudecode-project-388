@@ -18,5 +18,24 @@
 достаточно значимо для уведомления, а какое — шум, описаны в
 `KNOWLEDGE.md`.
 
+## Хранение прогонов и GitHub MCP
+
+Прогоны хранятся не здесь, а в отдельном приватном репозитории
+`zxvfc/tracker-data` (см. `.claude/skills/tracker/SKILL.md`, разделы
+«Схема хранения» и «Сравнение с предыдущим прогоном») — это чужой
+приватный репозиторий, и снаружи его содержимое не видно, так что
+проверить сохранённые файлы по ссылке нельзя.
+
+GitHub MCP-доступ (`mcp__github__*`), которым `tracker` читает и пишет
+`tracker-data`, в этом репозитории нигде не настроен — в нём нет
+`.mcp.json`. Он приходит от среды выполнения (Claude Code on the web /
+Claude Code Remote), в которой запускался `tracker`: GitHub-интеграция
+там даётся на уровне окружения/сессии, а не на уровне репозитория. При
+фактических прогонах записи в `tracker-data` шли обычными вызовами MCP
+(`mcp__github__create_or_update_file`) и завершались успешно (ответ с
+`sha` и `html_url` нового коммита) — до отката на обычный `git
+push`/`git clone` дело не доходило, ограничений вроде HTTP 403 на
+запись в `tracker-data` не возникало.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/zxvfc/vibecoding-claudecode-project-388/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zxvfc/vibecoding-claudecode-project-388/actions)
