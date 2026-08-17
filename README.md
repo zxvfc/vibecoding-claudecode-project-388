@@ -1,5 +1,8 @@
 # jib.co.th price tracker
 
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/zxvfc/vibecoding-claudecode-project-388/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zxvfc/vibecoding-claudecode-project-388/actions)
+
 Отслеживает цены на компьютерное железо и периферию на
 [jib.co.th](https://www.jib.co.th/) — тайском интернет-магазине. Список
 конкретных товаров зашит в скилл `tracker` (см.
@@ -36,6 +39,3 @@ Claude Code Remote), в которой запускался `tracker`: GitHub-и
 `sha` и `html_url` нового коммита) — до отката на обычный `git
 push`/`git clone` дело не доходило, ограничений вроде HTTP 403 на
 запись в `tracker-data` не возникало.
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/zxvfc/vibecoding-claudecode-project-388/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zxvfc/vibecoding-claudecode-project-388/actions)
